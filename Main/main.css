@@ -14,6 +14,13 @@ body {
 
 }
 
+a, a:visited {
+
+    text-decoration: none;
+    color: black;
+
+}
+
 header {
 
     display: flex;
@@ -133,6 +140,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-top: 50px;
     padding-left: 100px;
     padding-right: 100px;
 
@@ -143,8 +151,16 @@ main > h1 {
     display: flex;
     width: 100%;
     font-size: 70px;
+    margin-top: -50px;
     justify-content: center;
     align-items: center;
+
+}
+
+main > img {
+
+    height: 20vw;
+    border-radius: 15px;
 
 }
 
@@ -170,13 +186,6 @@ article > h2 {
 article > p {
 
     font-size: 1vw;
-
-}
-
-main > img {
-
-    height: 20vw;
-    border-radius: 15px;
 
 }
 
