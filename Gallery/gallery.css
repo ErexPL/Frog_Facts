@@ -130,6 +130,32 @@ span {
 
 }
 
+main {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+main > img {
+
+    height: 550px;
+    border: 10px solid #F4FFC6;
+
+}
+
+#img_1, #img_4, #img_7 {
+
+    flex-basis: 34%;
+
+}
+
+#img_2, #img_3, #img_5, #img_6, #img_8, #img_9 {
+
+    flex-basis: 33%;
+
+}
+
 footer {
 
     display: flex;
