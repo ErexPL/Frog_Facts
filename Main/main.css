@@ -42,12 +42,6 @@ header > h1 {
 
 }
 
-a {
-
-    font-size: 2vw;
-
-}
-
 .vertical_line {
 
     height: 150px;
@@ -78,7 +72,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 40px;
+    font-size: 3em;
     font-weight: 900;
     box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
 
@@ -156,14 +150,14 @@ aside > article {
 
 aside > article > h3 {
 
-    font-size: 25px;
+    font-size: 1.75em;
     margin: 10px;
 
 }
 
 aside > article > p {
 
-    font-size: 15px;
+    font-size: 1em;
     margin: 25px;
 
 }
@@ -204,7 +198,7 @@ main > h1 {
 
     display: flex;
     width: 100%;
-    font-size: 70px;
+    font-size: 4.5em;
     justify-content: center;
     align-items: center;
     margin: 40px;
