@@ -144,7 +144,6 @@ aside > article {
     width: auto;
     padding: 10px;
     justify-content: center;
-    align-items: start;
 
 }
 
@@ -152,6 +151,7 @@ aside > article > h3 {
 
     font-size: 1.75em;
     margin: 10px;
+    text-align: center;
 
 }
 
@@ -165,7 +165,7 @@ aside > article > p {
 .horizontal_line {
 
     height: 5px;
-    width: 150px;
+    width: 200px;
     background-color: black;
     border-radius: 5px;
     box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
@@ -179,6 +179,8 @@ aside > img {
     padding: 0px;
     flex-basis: 80%;
     border-radius: 15px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
+    object-fit: cover;
 
 }
 
@@ -198,19 +200,20 @@ main > h1 {
 
     display: flex;
     width: 100%;
-    font-size: 4.5em;
+    font-size: 3.5vw;
     justify-content: center;
     align-items: center;
-    margin: 40px;
+    margin: 80px;
 
 }
 
 main > img {
 
-    height: 18vw;
+    flex-basis: 30%;
     border-radius: 15px;
     margin: 40px;
     box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
+    object-fit: cover;
 
 }
 
@@ -231,7 +234,7 @@ article {
 article > h2 {
 
     font-size: 2vw;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 
 }
 
