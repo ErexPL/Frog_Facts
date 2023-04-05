@@ -203,7 +203,7 @@ main > h1 {
     font-size: 3.5vw;
     justify-content: center;
     align-items: center;
-    margin: 80px;
+    margin: 1.5vw;
 
 }
 
@@ -246,12 +246,41 @@ article > p {
 
 table {
 
-    width: 90%;
-    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: white;
-    border-radius: 15px;
     margin-top: 40px;
     margin-bottom: 40px;
+    border-collapse: collapse;
+    border-style: hidden;
+    outline: 5px solid #F4FFC6;
+    outline-offset: -3px;
+    border-radius: 15px;
+
+}
+
+th {
+
+    padding: 2vw;
+    border: 2px solid;
+    font-size: 1vw;
+    background-color: #EC9D03;
+
+}
+
+td {
+
+    padding: 2vw;
+    border: 2px solid;
+    font-size: 0.8vw;
+    text-align: center;
+   
+}
+
+.first {
+
+    background-color: #BDFCA7;
 
 }
 

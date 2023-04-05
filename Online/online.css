@@ -204,7 +204,7 @@ main > h1 {
     font-size: 3.5vw;
     justify-content: center;
     align-items: center;
-    margin: 80px;
+    margin: 1.5vw;
 
 }
 
@@ -241,13 +241,14 @@ article {
 article > p {
 
     font-size: 1vw;
-    margin: 40px;
+    margin: 20px;
 
 }
 
 form {
 
     min-height: 1000px;
+    margin: 20px;
 
 }
 
