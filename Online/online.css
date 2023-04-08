@@ -256,7 +256,13 @@ form {
 
 form > * {
 
-    font-size: 0.5vw;
+    font-size: 0.7vw;
+
+}
+
+input, textarea {
+
+    font-size: 0.7vw;
 
 }
 
