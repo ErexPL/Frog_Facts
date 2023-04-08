@@ -38,8 +38,38 @@
         <h1>Formularz</h1>
         <article>
             <form>
-                
-            </form>
+                <label for="imie">*Imię:
+                    <input type="text" id="imie" name="imie" placeholder="Jan" required>
+                </label>
+                <label for="nazwisko">*Nazwisko:
+                    <input type="text" id="nazwisko" name="nazwisko" placeholder="Kowalski" required>
+                </label>
+                <label for="email">*Adres e-mail:
+                    <input type="email" id="email" name="email" placeholder="jan.kowalski@gmail.com" required>
+                </label>
+                <label for="telefon">Numer telefonu:
+                    <input type="tel" id="telefon" name="telefon" placeholder="123 456 789">
+                </label>
+                <label for="miasto">Miasto:
+                    <input type="text" id="miasto" name="miasto" placeholder="Gliwice">
+                </label>
+                <label for="kod-pocztowy">Kod pocztowy:
+                    <input type="text" id="kod-pocztowy" name="kod-pocztowy" placeholder="44-105">
+                </label>
+                <label for="wiadomosc">Dodatkowe informacje:
+                    <textarea id="wiadomosc" name="wiadomosc" rows="4" cols="50" placeholder="Nie posiadam kamerki / mikrofonu"></textarea>
+                </label>
+                <fieldset>
+                    <label id="choice_label">*Preferowany termin zajęć:</label>
+                    <input type="radio" id="termin-1" name="termin" value="1" required>
+                    <label for="termin-1" value="">Wtorek, godzina 18:00-19:30</label>
+                    <input type="radio" id="termin-2" name="termin" value="2">
+                    <label for="termin-2">Piątek, godzina 15:00-16:30</label>
+                    <input type="radio" id="termin-3" name="termin" value="3">
+                    <label for="termin-3">Niedziela, godzina 10:00-11:30</label>
+                </fieldset>
+                <input type="submit" value="Wyślij zgłoszenie">
+              </form>
         </article>
     </main>
     <footer>
