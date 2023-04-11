@@ -276,6 +276,7 @@ th {
     border: 2px solid;
     font-size: 1vw;
     background-color: #EC9D03;
+    display: ru;
 
 }
 
@@ -312,6 +313,7 @@ footer > img {
 
 footer > p {
 
+    color: white;
     text-align: center;
     font-size: 1vw;
     font-weight: 900;
