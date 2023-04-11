@@ -219,7 +219,7 @@ main > h1 {
 
 main > article {
 
-    width: 70%;
+    width: 75%;
     height: max-content;
     background-color: white;
     border-radius: 15px;
@@ -238,7 +238,6 @@ article {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    width: 55%;
     background-color: #EC9D03;
     border-radius: 15px;
     padding: 50px;
