@@ -17,6 +17,7 @@ body {
 
 a, a:visited {
 
+    width: 46vw;
     text-decoration: none;
     color: black;
 
