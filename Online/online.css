@@ -154,6 +154,9 @@ aside > article > h3 {
     font-size: 1.75em;
     margin: 10px;
     text-align: center;
+    border-bottom: 5px #0A0A0A solid;
+    border-radius: 15px;
+    padding-bottom: 15px;
 
 }
 
@@ -161,16 +164,6 @@ aside > article > p {
 
     font-size: 1em;
     margin: 25px;
-
-}
-
-.horizontal_line {
-
-    height: 5px;
-    width: 200px;
-    background-color: #0A0A0A;
-    border-radius: 5px;
-    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
 
 }
 
