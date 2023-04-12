@@ -19,7 +19,7 @@ a, a:visited {
 
     width: 46vw;
     text-decoration: none;
-    color: black;
+    color: #0A0A0A;
 
 }
 
@@ -40,16 +40,8 @@ header > h1 {
     font-size: 70px;
     font-weight: 900;
     min-width: 200px;
-
-}
-
-.vertical_line {
-
-    height: 150px;
-    width: 20px;
-    background-color: black;
-    border-radius: 5px;
-    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
+    border-right: 8px #0A0A0A solid;
+    border-radius: 15px;
 
 }
 
@@ -83,7 +75,7 @@ li {
 
 li:hover {
 
-    background-color: white;
+    background-color: #F5F5F5;
     transition: ease-in-out 0.2s;
 
 }
@@ -91,15 +83,15 @@ li:hover {
 span > img {
 
     position: absolute;
-    left: 130px;
-    top: 130px;
+    left: 210px;
+    top: 210px;
 
 }
 
 span {
 
     position: absolute;
-    border-radius: 50%;
+    border-radius: 30%;
     left: -170px;
     top: -170px;
     box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
@@ -139,7 +131,7 @@ aside {
     display: flex;
     flex-wrap: wrap;
     background-color: #468132;
-    width: 386px;
+    width: 400px;
     padding: 25px;
     padding-top: 250px;
     align-items: center;
@@ -177,7 +169,7 @@ aside > article > p {
 
     height: 5px;
     width: 200px;
-    background-color: black;
+    background-color: #0A0A0A;
     border-radius: 5px;
     box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
 
@@ -198,7 +190,7 @@ aside > img {
 main {
 
     background-color: #F4FFC6;
-    width: calc(100% - 386px);
+    width: calc(100% - 400px);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -222,7 +214,7 @@ main > article {
 
     flex-basis: 80%;
     height: max-content;
-    background-color: white;
+    background-color: #F5F5F5;
     border-radius: 15px;
 
 }
@@ -333,7 +325,7 @@ input[type="submit"] {
     width: 100%;
     padding: 15px;
     background-color: #EC9D03;
-    color: white;
+    color: #F5F5F5;
     border: none;
     border-radius: 15px;
     font-size: 1vw;
@@ -354,13 +346,14 @@ footer {
 
 footer > img {
 
-    width: 6vw;
+    width: 4vw;
+    margin: 30px;
 
 }
 
 footer > p {
 
-    color: white;
+    color: #F5F5F5;
     text-align: center;
     font-size: 1vw;
     font-weight: 900;
