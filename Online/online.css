@@ -19,7 +19,7 @@ a, a:visited {
 
     width: 46vw;
     text-decoration: none;
-    color: #0A0A0A;
+    color: #050505;
 
 }
 
@@ -37,7 +37,7 @@ header {
 
 header > img {
 
-    border-right: 8px #0A0A0A solid;
+    border-right: 8px #050505 solid;
     border-radius: 15px;
     padding: 15px;
     width: 500px;
@@ -74,7 +74,7 @@ li {
 
 li:hover {
 
-    background-color: #F5F5F5;
+    background-color: #FAFAFA;
     transition: ease-in-out 0.2s;
 
 }
@@ -154,7 +154,7 @@ aside > article > h3 {
     font-size: 1.75em;
     margin: 10px;
     text-align: center;
-    border-bottom: 5px #0A0A0A solid;
+    border-bottom: 5px #050505 solid;
     border-radius: 15px;
     padding-bottom: 15px;
 
@@ -206,7 +206,7 @@ main > article {
 
     flex-basis: 80%;
     height: max-content;
-    background-color: #F5F5F5;
+    background-color: #FAFAFA;
     border-radius: 15px;
 
 }
@@ -317,7 +317,7 @@ input[type="submit"] {
     width: 100%;
     padding: 15px;
     background-color: #EC9D03;
-    color: #F5F5F5;
+    color: #FAFAFA;
     border: none;
     border-radius: 15px;
     font-size: 1vw;
@@ -345,7 +345,7 @@ footer > img {
 
 footer > p {
 
-    color: #F5F5F5;
+    color: #FAFAFA;
     text-align: center;
     font-size: 1vw;
     font-weight: 900;
